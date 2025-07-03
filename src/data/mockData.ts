@@ -3,8 +3,8 @@ import { User, SavingsGoal, Transaction, Group, BillPayment, Notification, Liter
 // Mock data for the application
 export const mockUser: User = {
   id: '1',
-  name: 'Adebayo Johnson',
-  email: 'adebayo@example.com',
+  name: 'Ogheneyoma Victor',
+  email: 'victoroyoma@gmail.com',
   phone: '+234 801 234 5678',
   joinDate: '2024-01-15',
   totalSavings: 25000,
@@ -108,7 +108,7 @@ export const mockGroups: Group[] = [
     id: '1',
     name: 'Market Traders',
     members: [
-      { id: '1', name: 'Adebayo Johnson', joinDate: '2024-01-15', totalContributions: 12000, status: 'active', hasContributedThisCycle: true },
+      { id: '1', name: 'Ogheneyoma Victor', joinDate: '2024-01-15', totalContributions: 12000, status: 'active', hasContributedThisCycle: true },
       { id: '2', name: 'Fatima Abdullahi', joinDate: '2024-01-20', totalContributions: 11000, status: 'active', hasContributedThisCycle: true },
       { id: '3', name: 'Chike Okafor', joinDate: '2024-02-01', totalContributions: 10000, status: 'active', hasContributedThisCycle: false },
     ],
@@ -125,7 +125,7 @@ export const mockGroups: Group[] = [
     id: '2',
     name: 'Family Support',
     members: [
-      { id: '1', name: 'Adebayo Johnson', joinDate: '2024-03-01', totalContributions: 8000, status: 'active', hasContributedThisCycle: false },
+      { id: '1', name: 'Ogheneyoma Victor', joinDate: '2024-03-01', totalContributions: 8000, status: 'active', hasContributedThisCycle: false },
       { id: '4', name: 'Amina Hassan', joinDate: '2024-03-01', totalContributions: 8000, status: 'active', hasContributedThisCycle: true },
       { id: '5', name: 'Tunde Adeleke', joinDate: '2024-03-15', totalContributions: 6000, status: 'active', hasContributedThisCycle: true },
     ],
